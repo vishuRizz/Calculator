@@ -10,7 +10,7 @@
 padding: 15px;
   height: 670px;
   width: 450px;
- background-color: rgb(245, 237, 227);
+ background-color: rgb(245, 242, 238);
 }
 
 #display{
@@ -25,10 +25,10 @@ padding: 15px;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 60px;
+  background-color: rgb(236, 239, 222);
  
 }
 .cust-button{
- background-color: rgb(217, 138, 34);
  margin-right: 20px;
  margin-left: 30px;
  margin-top: 10px;

@@ -1,12 +1,15 @@
 import React from 'react'
 
-function ButtonContainer({arrInput}) {
+function ButtonContainer({arrInput, onButtonClick}) {
   return (
-    <div>
+    
       <div id='buttonContainer'>
-        {arrInput.map((e)=> <button type="button" className="cursor-pointer cust-button btn btn-outline-secondary" disabled>{e}</button> )}
+        {arrInput.map((buttonText)=> 
+         <button 
+         onClick={()=> onButtonClick(buttonText)}
+         type="button" className="btn btn-light cust-button">{buttonText}</button> )}
    </div>
-    </div>
+    
   )
 }
 

@@ -1,0 +1,42 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+#calculator{
+  text-align: center;
+ border: 1px solid rgb(167, 161, 161);
+ border-radius: 10px;
+padding: 15px;
+  height: 670px;
+  width: 450px;
+ background-color: rgb(245, 237, 227);
+}
+
+#display{
+  font-size: 40px;
+  width: 400px;
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+#buttonContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+ 
+}
+.cust-button{
+ background-color: rgb(217, 138, 34);
+ margin-right: 20px;
+ margin-left: 30px;
+ margin-top: 10px;
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+}
+
+
+
+
